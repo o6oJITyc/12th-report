@@ -1,0 +1,35 @@
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  padding: 50px;
+  height: 100%;
+}
+
+.flexbox {
+  border: 20px solid rgb(231, 203, 172);
+  margin-bottom: 20px;
+}
+
+.flexbox__item {
+  border: 20px solid rgb(143, 119, 91);
+}
+
+.flexbox__item-content {
+  background-color: rgb(83, 64, 44);
+  text-align: center;
+  padding: 50px;
+  font-size: 3rem;
+}
+
+/*--------------------------------------------------------------*/
+
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+  height: 45vh;
+  align-items: center;
+}
